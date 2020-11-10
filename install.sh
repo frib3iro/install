@@ -91,24 +91,6 @@ sleep 2s
 yay -S gnome-terminal-transparency --noconfirm
 clear
 
-# Cava -------------------------------------------------------------------
-echo -e "${seta} ${ciano}Instalando o cava${fim}"
-sleep 2s
-yay -S cava --noconfirm
-clear
-
-# Ventoy -------------------------------------------------------------------
-echo -e "${seta} ${ciano}Instalando o ventoy${fim}"
-sleep 2s
-yay -S ventoy-bin --noconfirm
-clear
-
-# Mint-icons ------------------------------------------------------------
-echo -e "${seta} ${ciano}Instalando o mint-icons${fim}"
-sleep 2s
-yay -S mint-y-icons --noconfirm
-clear
-
 # Sardi-icons ------------------------------------------------------------
 echo -e "${seta} ${ciano}Instalando o sardi-icons${fim}"
 sleep 2s
@@ -119,12 +101,6 @@ clear
 echo -e "${seta} ${ciano}Instalando o ant-dracula-theme-git${fim}"
 sleep 2s
 yay -S ant-dracula-theme-git --noconfirm
-clear
-
-# Debtap ----------------------------------------------------------------
-echo -e "${seta} ${ciano}Instalando o debtap${fim}"
-sleep 2s
-yay -S debtap --noconfirm
 clear
 
 # Glxinfo ----------------------------------------------------------------
@@ -139,16 +115,3 @@ sleep 2s
 yay -S google-chrome --noconfirm
 clear
 
-# Spotify ---------------------------------------------------------------
-echo -e "${seta} ${ciano}Instalando spotify${fim}"
-sleep 2s
-yay -S spotify --noconfirm
-clear
-
-# Fontes ----------------------------------------------------------------
-echo -e "${seta} ${ciano}Instalando as fontes${fim}"
-sleep 2s
-yay -S ttf-ms-fonts --noconfirm
-yay -S ttf-roboto --noconfirm
-yay -S ttf-ubuntu-font-family --noconfirm
-clear
